@@ -18,7 +18,7 @@ meta.foundation-mq-medium-only {
   width: 40.063em; }
 
 meta.foundation-mq-large {
-  font-family: "/only screen and (min-width:64.063em)/";
+  font-family: "/only screen and (min-width:75em)/";
   width: 64.063em; }
 
 meta.foundation-mq-large-only {
@@ -123,7 +123,7 @@ select {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 62.5rem; }
+  max-width: 120rem; }
   .row:before, .row:after {
     content: " ";
     display: table; }

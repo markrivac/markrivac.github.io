@@ -10,9 +10,10 @@
   <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Maven+Pro' rel='stylesheet' type='text/css'>
   <script src="js/vendor/modernizr.js"></script>
+  <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
 </head>
 <body>
-
+  <div id="mainFrame">
   <div class="row">
     <div id="mainBackground" class="small-12 large-12 columns">
       <div id="title">
@@ -25,7 +26,7 @@
   </div>
   <div class="row">
     <div id="whatIsIt" class="small-12 large-12 columns">
-      <div class="row">
+      <div id="whatIsItDiv" class="row">
         <div id="videoDescText" class="small-6 large-6 columns">
           <h2>What is it?</h2>
           <p>LearningMe is a new way to study online. You create a personal account and with a simple questionare you will find courses tailored just for you!</p>
@@ -36,7 +37,7 @@
      </div>
      <div class="row">
       <div id="learningStyle" class="small-12 large-12 columns">
-        <div class="row">
+        <div id="learningStyleDiv" class="row">
           <div class="small-4 large-4 columns">
             <ul class="accordion" data-accordion>
               <li class="accordion-navigation">
@@ -59,7 +60,7 @@
               </li>
             </ul>
           </div>
-          <div class="small-8 large-8 columns">
+          <div id="learningStyleText" class="small-8 large-8 columns">
             <h2 id="learningP2">Learning Styles</h2>
             <p id="learningP2">There are four main types of learning styles: auditory, visual and kinesthetic. Most people learn best through a combination of the three types of learning styles, but everybody is different.</p>
           </div>
@@ -68,7 +69,7 @@
     </div>
 
     <div id="purpose" class="row">
-      <div class="small-8 large-8 columns">
+      <div id="purposeText" class="small-8 large-8 columns">
         <h2>How does it work?</h2>
         <p>The purpose of LearningMe is not just to get you a specialized way to study. But to guide you through other styles of learning so one day you can learn with those styles as well!</p>
       </div>
@@ -79,25 +80,34 @@
     </div>
 
     <div id="audience" class="row">
-      <div class="small-4 large-4 columns">
+      <div id="audImg" class="small-4 large-4 columns">
+        <div id="audienceImg"></div>
       </div>
-      <div class="small-8 large-8 columns">
+      <div id="audienceText" class="small-8 large-8 columns">
         <h2>Audience target</h2>
         <p>Our audience target is students from high school to university students. Both male and female are able to enter with their institutional mail and get full access to the page.</p>
       </div>
     </div>
 
     <div id="teamDesc" class="row">
-      <div class="small-8 large-8 columns">
+      <div id="teamImgDiv" class="small-3 large-3 columns">
+        <div id="teamImg3"></div>
+        <div id="sponsorImg"></div>
+      </div>
+      <div id="teamDescText" class="small-6 large-6 columns">
         <h2 id="learningP2">Who are we?</h2>
-        <p id="learningP2">LearningMe Was made by 3 Computational Systems Engineers students. The idea was born as the same experience that they, as many teenagers, are living as students. These Students are, Gabriel Trujillo Gomez, original from the state of Michoacán; Itzel Yazmin Cordero Sanchez from Sinaloa and Mark Octavio Rivera Acosta from Chihuahua, all of them from Mexico. This three students have very different ideas, but together they make a great dynamic team, distributing the tasks between each other in a way that everyone makes a significantly job contributing for the project. This is who they are and how they work.<br><br>
+        <p id="learningP2">LearningMe Was made by 3 Computational Systems Engineers students. The idea was born as the same experience that they, as many teenagers, are living as students. These Students are, Gabriel Trujillo Gomez, original from the state of Michoacán; Itzel Yazmin Cordero Sanchez from Sinaloa and Mark Octavio Rivera Acosta from Chihuahua, all of them from Mexico. This three students have very different ideas, but together they make a great dynamic team, distributing the tasks between each other in a way that everyone makes a significantly job contributing for the project. This is who they are and how they work.<br><br><br><br><br>
           Person to support us: Victor Manuel García Rosales.</p>
+      </div>
+      <div id="teamImgDiv" class="small-3 large-3 columns">
+        <div id="teamImg"></div>
+        <div id="teamImg2"></div>
       </div>
     </div>
 
   </div>
 </div>
-
+</div>
 <script src="js/vendor/jquery.js"></script>
 <script src="js/foundation.min.js"></script>
 <script>

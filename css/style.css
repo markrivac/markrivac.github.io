@@ -1,7 +1,15 @@
-#mainBackground{
-	background-color: #00D8FF;
+#mainFrame {
 	width: 100%;
-	height: 500px;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+}
+
+#mainBackground{
+	background-image: url("http://b.fastcompany.net/multisite_files/fastcompany/imagecache/1280/poster/2013/09/3016957-poster-p-1-google-will-power-the-online-learning-revolution-with-moocorg.jpg");
+	background-size: 100% 100%;
+	width: 100%;
+	height: 50em;
 	
 }
 #title{
@@ -31,6 +39,18 @@
 	padding: 10px;
 }
 
+#whatIsItDiv {
+	padding-left: 15em;
+	padding-right: 15em;
+	padding-top: 5em;
+	text-align: center;
+	height: 500px;
+}
+
+#videoDescText {
+	padding-top: 5em;
+}
+
 #whatIsIt h2{
 	font-family: 'Quicksand', sans-serif;
 }
@@ -40,10 +60,21 @@
 }
 
 #learningStyle {
-	height: 335px;
+	height: 500px;
 	background-color: #0583F2;
-	padding: 10px; 
+	padding: 10px,; 
 	width: 100%;
+}
+
+#learningStyleDiv{
+	padding-left: 15em;
+	padding-right: 25em;
+	padding-top: 6em;
+	text-align: center;
+}
+
+#learningStyleText {
+	padding-top: 4em;
 }
 
 #learningP{
@@ -60,8 +91,15 @@
 }
 
 #purpose {
-	margin-top: 15px;
-	height: 250px;
+	text-align: center;
+	padding-right: 15em;
+	padding-left: 17em;
+	padding-top: 8em;
+	height: 500px;
+}
+
+#purposeText {
+	padding-top: 2em;
 }
 
 #imgStyles {
@@ -72,10 +110,74 @@
 }
 
 #teamDesc {
-	padding-left: 30px;
+	padding-right: 15em;
+	padding-left: 17em;
+	padding-top: 4em;
 	background-color: #0583F2;
+	height: 700px;
+}
+
+#teamDescText {
+	text-align: center;
+	margin-left: -30px;
+	padding-top: 7em;
+}
+
+#teamImgDiv{
+	padding-top: 3em;
+}
+#teamImg {
+	background-image: url("file:///C:/Users/Gabriel/Documents/GitHub/markrivac.github.io/img/gabo.jpg");
+	border-radius: 100%;
+	height: 200px;
+	width: 200px;
+}
+
+#teamImg2 {
+	background-image: url("file:///C:/Users/Gabriel/Documents/GitHub/markrivac.github.io/img/gabo.jpg");
+	border-radius: 100%;
+	margin-top: 20px;
+	height: 200px;
+	width: 200px;
+}
+
+#teamImg3 {
+	background-image: url("file:///C:/Users/Gabriel/Documents/GitHub/markrivac.github.io/img/gabo.jpg");
+	border-radius: 100%;
+	margin-top: 10px;
+	height: 200px;
+	width: 200px;
+}
+
+#sponsorImg {
+	background-image: url("file:///C:/Users/Gabriel/Documents/GitHub/markrivac.github.io/img/gabo.jpg");
+	border-radius: 100%;
+	margin-top: 9em;
+	height: 200px;
+	width: 200px;
 }
 
 #audience {
+	text-align: center;
 	background-color: #D2D3D9;
+	padding-left: 15em;
+	padding-right: 25em;
+	padding-top: 3em;
+	height: 500px;
+}
+
+#audienceText {
+	padding-top: 7em;
+}
+
+#audienceImg {
+	width: 400px;
+	height: 300px;
+	border-radius: 100%;
+	background-image: url("http://www.experian.com/blogs/marketing-forward/wp-content/uploads/2013/08/audience-targeting.jpg");
+}
+
+#audImg {
+	border-radius: 100%;
+	padding-top: 3em;
 }
