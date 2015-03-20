@@ -3,6 +3,19 @@
 	background-color: #FFCCCC;
 }
 
+#top10Div{
+	width: 30%;
+}
+
+#top10List{
+	list-style-type: none;
+}
+
+#top10List li{
+	padding-left: 12px;
+	border-bottom: 2px solid;
+}
+
 #subFrame2{
 	margin-top: 10px;
 }
