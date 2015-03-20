@@ -33,6 +33,10 @@
 	background-color: #FFCCCC;
 }
 
+#coursesDiv{
+	text-align: center;
+}
+
 #top10Div{
 	width: 30%;
 }
@@ -60,7 +64,10 @@
 	height: 250px;
 	background-color: #FF9999;
 	margin-bottom: 10px;
+}
 
+#top10 h2{
+	margin-left: 20%;
 }
 
 #course{
@@ -68,6 +75,7 @@
 	margin: 10px;
 	height: 200px;
 	width: 200px;
+	border-radius: 20px;
 }
 
 #mainFrame {
