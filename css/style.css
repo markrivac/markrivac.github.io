@@ -1,3 +1,8 @@
+#principal{
+	width: 100%;
+	height: 1000px;
+	background-image: url("http://ima-usa.com/skin/frontend/ima/default/images/ad_6.jpg");
+}
 #LogIn{
 	width: 100%;
 	height: 300px;
@@ -6,27 +11,52 @@
 #SignUp{
 	width: 100%;
 	height: 300px;
-	background-color: blue;
+	background-color: orange;
+
 }
 #log{
-	width: 100%;
+	width: 98%;
 	height: 50px;
 	background-color: green;
+	margin-left: 4px;
+	margin-right: 3px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 #username{
 	width: 98%;
 	height: 50px;
-	background-color: white;
+	background-color: blue;
+	margin-left: 4px;
+	margin-right: 3px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 #password{
-	width: 75px;
-	height: 50px;
-	background-color: white;
-}
-#e-mail{
-	width: 75px;
+	width: 98%;
 	height: 50px;
 	background-color: black;
+	margin-left: 4px;
+	margin-right: 3px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#sign{
+	width: 98%;
+	height: 50px;
+	background-color: green;
+	margin-left: 4px;
+	margin-right: 3px;
+	margin-bottom: 10px;
+}
+#e-mail{
+	width: 98%;
+	height: 50px;
+	background-color: white;
+	margin-left: 4px;
+	margin-right: 3px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 #mainFrame2{
 	width: 100%;
