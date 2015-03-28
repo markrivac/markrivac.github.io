@@ -1,11 +1,17 @@
-#seg{
+#makers{
+	text-align: left;
+	font-size: 15px;
+}
 
-	background-image:"http://b.fastcompany.net/multisite_files/fastcompany/imagecache/1280/poster/2013/09/3016957-poster-p-1-google-will-power-the-online-learning-revolution-with-moocorg.jpg";
+#seg{
+	margin-top: 100px;
 }
 .inicio{
 	text-align: center;
 	margin-top: 10px;
 }
+
+
 #LogIn{
 	width: 250px;
 	height: 150px;
@@ -13,7 +19,8 @@
 	margin-left: 100px;
 	margin-right: 35px;
 	margin-bottom: 25px;
-	margin-top: 25px;
+	margin-top: 100px;
+	display: inline-block;
 }
 #SignUp{
 	width: 250px;
@@ -22,7 +29,8 @@
 	margin-left: 100px;
 	margin-right: 35px;
 	margin-bottom: 25px;
-	margin-top: 25px;
+	margin-top: 10px;
+	display: inline-block;
 
 }
 .button{
@@ -36,7 +44,7 @@
 
 #username{
 	width: 93%;
-	height: 40px;
+	height: 80px;
 	background-color: #f1eac9;
 	margin-left: 10px;
 	margin-right: 10px;
@@ -45,7 +53,7 @@
 }
 #password{
 	width: 93%;
-	height: 40px;
+	height: 80px;
 	background-color: #f1eac9;
 	margin-left: 10px;
 	margin-right: 10px;
@@ -54,7 +62,7 @@
 }
 #e-mail{
 	width: 93%;
-	height: 40px;
+	height: 80px;
 	background-color: #f1eac9;
 	margin-left: 10px;
 	margin-right: 10px;
@@ -63,7 +71,7 @@
 }
 #institution{
 	width: 93%;
-	height: 40px;
+	height: 80px;
 	background-color: #f1eac9;
 	margin-left: 10px;
 	margin-right: 10px;
@@ -80,7 +88,8 @@
 }
 
 #top10Div{
-	width: 30%;
+	width: 50%;
+	margin-left: 80px;
 }
 
 #top10List{
@@ -88,12 +97,12 @@
 }
 
 #top10List li{
-	padding-left: 12px;
+	padding-left: 30px;
 	border-bottom: 2px solid;
 }
 
 #subFrame2{
-	margin-top: 10px;
+	margin-top: 50px;
 }
 #video{
 	width: 100%;
@@ -103,9 +112,14 @@
 }
 
 #top10{
-	height: 250px;
+	height: 380px;
 	background-color: #FF9999;
+	border-radius: 10%;
 	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	width: 500px;
 }
 
 #top10 h2{
@@ -114,9 +128,9 @@
 
 #course{
 	background-color: #FF9999;
-	margin: 10px;
-	height: 200px;
-	width: 200px;
+	margin: 50px 50px 50px 50px;
+	height: 300px;
+	width: 300px;
 	border-radius: 20px;
 }
 
