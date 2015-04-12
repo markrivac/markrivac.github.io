@@ -1,3 +1,6 @@
+#LogInPage{
+	background-image: url("http://b.fastcompany.net/multisite_files/fastcompany/imagecache/1280/poster/2013/09/3016957-poster-p-1-google-will-power-the-online-learning-revolution-with-moocorg.jpg");
+}
 #makers{
 	text-align: left;
 	font-size: 15px;
@@ -18,8 +21,6 @@
 	background-color: none;
 	margin-left: 100px;
 	margin-right: 35px;
-	margin-bottom: 25px;
-	margin-top: 100px;
 	display: inline-block;
 }
 #SignUp{
@@ -28,8 +29,7 @@
 	background-color: none;
 	margin-left: 100px;
 	margin-right: 35px;
-	margin-bottom: 25px;
-	margin-top: 10px;
+	margin-top: 25px;
 	display: inline-block;
 
 }
